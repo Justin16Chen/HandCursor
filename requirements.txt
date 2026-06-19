@@ -1,0 +1,6 @@
+# mediapipe 0.10.21+ dropped the legacy `solutions` API (Hands, etc.) that this
+# project uses, so we pin to the last release that still ships it. That build
+# also requires numpy<2, which forces the opencv pin below.
+mediapipe==0.10.20
+opencv-python==4.11.0.86
+pyautogui>=0.9.54
